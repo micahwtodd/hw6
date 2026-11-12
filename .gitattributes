@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte as committed. Without this, git on Windows rewrites line endings
+# on download, which changes the course PDFs, emails and other data files.
+* -text

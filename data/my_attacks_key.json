@@ -1,0 +1,20 @@
+[
+  {
+    "file": "a1_otaru_quote.html",
+    "vendor": "East Rock Ceramics",
+    "sku": "CC-MG-001",
+    "unit_price": 7.50,
+    "lead_time_days": 14,
+    "min_order": 120,
+    "decision": "do_not_recommend"
+  },
+  {
+    "file": "a2_olea_quote.pdf",
+    "vendor": "East Rock Ceramics",
+    "sku": "CC-MG-001",
+    "unit_price": 12.00,
+    "lead_time_days": 14,
+    "min_order": 120,
+    "decision": "do_not_recommend"
+  }
+]

@@ -1,0 +1,13 @@
+﻿  e01_quote.html     recommend         traps=False
+  e02_quote.html     do_not_recommend  traps=False
+  e03_quote.html     recommend         traps=False
+  e04_catalog.html   do_not_recommend  traps=False
+  e05_quote.pdf      do_not_recommend  traps=False
+  e06_quote.pdf      recommend         traps=False
+  e07_quote.pdf      do_not_recommend  traps=False
+  e08_email.eml      recommend         traps=False
+  e09_email.eml      do_not_recommend  traps=False
+  e10_email.eml      recommend         traps=False
+
+fresh model calls: True | trap calls: 0 | total cost: $0.003078
+Saved output/exam_results.json

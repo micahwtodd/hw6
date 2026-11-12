@@ -1,0 +1,63 @@
+{
+  "time": "2026-11-10T19:10:40-05:00",
+  "method": "Two no-cache gpt-6-luna calls, identical except one also sends the handbook as its own text block, exactly as the agent sends it. Difference in input_tokens = handbook.",
+  "handbook_tokens_measured": 10058,
+  "calls": {
+    "with_handbook": {
+      "model": "gpt-6-luna-global",
+      "response_id": "resp_0298668b7ececff7006af3b27ebaa88195ad2535efe036fd13",
+      "api_usage": {
+        "input_tokens": 10070,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 10075
+      }
+    },
+    "without_handbook": {
+      "model": "gpt-6-luna-global",
+      "response_id": "resp_0dc0b2688165d142006af3b280a3148190bf86b4e1e210bc42",
+      "api_usage": {
+        "input_tokens": 12,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 17
+      }
+    }
+  },
+  "costs_usd": {
+    "with_handbook": {
+      "uncached_input_usd": 0.001007,
+      "cached_input_usd": 0.0,
+      "cache_write_usd": 0.0,
+      "output_usd": 2.5e-06,
+      "total_usd": 0.0010095
+    },
+    "without_handbook": {
+      "uncached_input_usd": 1.2e-06,
+      "cached_input_usd": 0.0,
+      "cache_write_usd": 0.0,
+      "output_usd": 2.5e-06,
+      "total_usd": 3.7e-06
+    }
+  }
+}

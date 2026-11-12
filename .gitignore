@@ -1,0 +1,17 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+API_key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files from the JSON log writer
+*.json.tmp
+
+# Course zip of the starter data
+0_data.zip

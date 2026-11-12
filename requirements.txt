@@ -1,0 +1,12 @@
+# Homework 6: Campus Customs vendor desk agent (Python 3.14.7)
+# Every model call uses gpt-6-luna through Portkey. PORTKEY_API_KEY is read only from the local .env file.
+# Install with: python -m pip install -r requirements.txt
+
+pydantic==2.14.3
+pydantic-ai==2.66.0
+openai==3.49.0
+httpx2==2.16.0
+python-dotenv==1.2.4
+pypdf==7.0.1
+pymupdf==2.1
+tiktoken==0.14.0
